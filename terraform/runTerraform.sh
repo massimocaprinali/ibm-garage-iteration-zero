@@ -203,6 +203,7 @@ else
 fi
 
 cp "${SRC_DIR}/${STAGES_DIRECTORY}/variables.tf" "${WORKSPACE_DIR}"
+cp "${SRC_DIR}/${STAGES_DIRECTORY}/provider.tf "${WORKSPACE_DIR}"
 cp "${SRC_DIR}/${STAGES_DIRECTORY}"/stage*.tf "${WORKSPACE_DIR}"
 
 echo ""
